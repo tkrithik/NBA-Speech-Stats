@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Speech Stats</title>
+    <style>
+      body {
+        margin: 20px;
+        background-color:rgb(65, 118, 197);
+        text-align:center
+      }
+
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+      }
+
+      .button {
+        background-color: #9b3538;
+        border: 10px;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 16px;
+      }
+    </style>
+</head>
+<body text="white">
+  <h1>Welcome to NBA Speech Stats!</h1>
+  <br>
+  <h2>Those who are blind don't always have the same oppurtunities as us when it comes to sports. Especially regarding stats, being blind deprives you of seeing games, scores, stats, and more. Thus, we made NBA Speech Stats to speak stats to those who are blind. By being able to talk with your computer, blind people can receive and hear stats unlike before. Try it below! </h1>
+  <br>
+  <h3>Please upload a file of you speaking in the following format:</h3>
+  <br>
+  <h4>"What is player LeBron James's stats"</h4>
+  <h4>"What is team Phoenix Suns wins"</h4>
+  <h4>"What is player Klay Thompson's rebounds"</h4>
+  <br>
+  <br>
+  <div class="center">
+    <form method="POST" action="/" enctype="multipart/form-data">
+      <input type="file" name="file_name">
+      <button class="button">See Your Stats!</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
