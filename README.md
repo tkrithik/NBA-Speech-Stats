@@ -1,4 +1,4 @@
-##Slam Dunk Hacks 2
+# Slam Dunk Hacks 2
 
 **Inspiration:**
 The debates in the basketball world seem to be never-ending, and there have been numerous controversies surrounding the rankings of NBA players for a particular season. Being huge basketball enthusiasts ourselves, we know how big of a role statistics plays when it comes to comparing two or more players. Most websites today, although they provide a wide range of statistics, but little to no website addresses the blind. We believe the blind should have access to stats just as easily as everybody else. Thus, we made our stats website almost entirely navigable and useable by voice. meaning statistics of every current NBA player at the tip of everyone's fingertips, or rather, at the tip of their tongues.
